@@ -46,5 +46,5 @@ function getNotes() {
 }
 
 // if i wanted to expand so i can delete notes, add a deleteNotesFromJson
-
+// used xpert learning assistant
 module.exports = { createNote, getNotes };
