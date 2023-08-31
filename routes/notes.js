@@ -26,7 +26,7 @@ function writeNotesToJson(data) {
     console.error('error writing notes:', error)
   }
 };
-
+// creates a new object to put in array
 function createNote(title, text) {
   const newNote = {
     id: uuidv4(),
